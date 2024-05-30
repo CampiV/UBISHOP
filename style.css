@@ -1,5 +1,60 @@
-.nav{
-    position: absolute;
-    top: 120px;
-    right: 0;
-}
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  nav {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+  
+    li {
+      margin-right: 20px;
+  
+      button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  
+    input {
+      border: none;
+      flex-grow: 1;
+      padding: 5px;
+    }
+  
+    button {
+      background-color: transparent;
+      border: none;
+      padding: 5px;
+      cursor: pointer;
+    }
+  }
