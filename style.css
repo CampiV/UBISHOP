@@ -2,6 +2,22 @@ body{
     margin: 0;
 }
 
-logo{
-    width: 20px;
+header{
+    display: flex;
+    flex-direction: row-center;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    display: flex;
+    align-items: start;
+}
+
+.logo img{
+    height: 50px;
+}
+
