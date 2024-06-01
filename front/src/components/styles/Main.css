@@ -1,0 +1,23 @@
+.container_main{
+    display:flex;
+    background: linear-gradient(#274ec8,#6e79edab);
+    justify-content: center;
+    padding: 100px;
+
+    
+}
+
+.Entrada{
+    display: flex;
+    justify-content: start;
+    font-size:2.15em;
+    font-weight: bold;
+    line-height: 2;
+
+}
+
+.Mapa_inicio{
+    line-height: 27;
+    box-sizing: border-box;
+}
+

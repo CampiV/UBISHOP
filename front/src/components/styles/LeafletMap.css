@@ -1,0 +1,5 @@
+.leaflet-map {
+    height: 80vh; /* 100% del alto de la ventana */
+    width: 8%; /* 100% del ancho del contenedor */
+  }
+  
